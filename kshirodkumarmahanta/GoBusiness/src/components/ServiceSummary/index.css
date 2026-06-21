@@ -1,0 +1,59 @@
+.service-summary-container {
+  background-color: #ffffff;
+
+  padding: 40px;
+
+  border-radius: 24px;
+
+  margin-top: 30px;
+}
+
+.section-heading {
+  font-size: 24px;
+
+  font-weight: 700;
+
+  color: #0f172a;
+
+  margin-bottom: 30px;
+}
+
+.summary-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 30px;
+}
+
+.summary-card {
+  border: 1px solid #e2e8f0;
+
+  border-radius: 16px;
+
+  padding: 30px;
+}
+
+.summary-label {
+  font-size: 14px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+
+  color: #64748b;
+
+  margin-bottom: 20px;
+}
+
+.summary-value {
+  font-size: 22px;
+
+  font-weight: 700;
+
+  color: #0f172a;
+}
+
+.service-text {
+  color: #2563eb;
+}
